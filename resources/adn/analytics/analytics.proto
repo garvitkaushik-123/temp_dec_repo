@@ -1,0 +1,138 @@
+syntax = "proto3";
+
+package adn.analytics;
+
+message PerformanceMetrics {
+  optional int32 bad_frames = 1;
+  optional int32 terrible_frames = 2;
+}
+
+message Attribution {
+  optional string network = 1;
+  optional double cost_amount = 2;
+  optional string campaign = 3;
+  optional string cost_type = 4;
+  optional string cost_currency = 5;
+}
+
+message RevenueGeneration {
+  optional double fs = 1;
+  optional double rv = 2;
+}
+
+message LastClick {
+  optional int32 fs = 1;
+  optional int32 rv = 2;
+}
+
+message AdInfo {
+  optional string placement = 1;
+  optional string crea_id = 2;
+  optional string ad_network = 3;
+  optional double cpm = 4;
+  optional string date = 5;
+  optional int32 duration = 6;
+  optional int32 is_shown = 7;
+  optional int32 is_clicked = 8;
+  optional int32 is_skipped = 9;
+  optional string promoted_app_id = 10;
+  optional string review_crea_id = 11;
+}
+
+message Purchase {
+  optional string id = 1;
+  optional string type = 2;
+  optional double price = 3;
+  optional string currency = 4;
+}
+
+message CountInfo {
+  optional string placement = 1;
+  optional int32 cnt = 2;
+  optional string crea_id = 5;
+  optional string ad_network = 6;
+}
+
+message AnalyticsData {
+  optional string unity_version = 1;
+  optional string vsauce_version = 2;
+  optional string session_id = 3;
+  optional string install_date = 4;
+  optional string session_start_date = 5;
+  optional int32 app_open_count_since_install = 6;
+  optional int32 session_count_since_install = 7;
+  optional string van_user_id = 8;
+  optional string mmp_id = 9;
+  optional int32 game_count_since_install = 10;
+  optional int32 game_count = 11;
+  optional PerformanceMetrics perf_metrics = 12;
+  optional int32 game_count_success = 13;
+  optional int32 play_time = 14;
+  optional int32 total_time = 15;
+  optional Attribution attribution = 16;
+  optional int32 fs_load_index = 17;
+  optional int32 rv_load_index = 18;
+  optional int32 fs_count_since_install = 19;
+  optional int32 rv_count_since_install = 20;
+  optional int32 fs_click_count_since_install = 21;
+  optional int32 rv_click_count_since_install = 22;
+  optional RevenueGeneration rev_gen = 23;
+  optional RevenueGeneration rev_gen_since_install = 24;
+  optional string van_impression_id = 25;
+  optional string van_fs_impression_id = 26;
+  optional string van_rv_impression_id = 27;
+  optional int32 count_req = 28;
+  optional LastClick has_last_click = 29;
+
+  repeated AdInfo last_x_session_desc = 30;
+  repeated AdInfo prev_x_session_desc = 31;
+  repeated AdInfo first_x_session_desc = 32;
+
+  optional int32 has_skip_prior_rv = 33;
+  int32 ads_consent_given = 34;
+  optional string idfa_authorization_status = 35;
+  repeated Purchase purchase_since_install = 36;
+  optional int32 is_premium = 37;
+  optional int32 airplane_mode_enable = 38;
+  optional string connectivity = 39;
+  optional int32 battery = 40;
+  optional int32 battery_saver_enable = 41;
+  optional int32 batt_charge = 42;
+  optional int64 available_disk_space = 43;
+  optional int64 total_disk_space = 44;
+  optional int32 do_not_dist = 45;
+  optional string gaid = 46;
+  optional string appset_id = 47;
+  optional int32 limit_ad_tracking = 48;
+  int32 global_token_index = 49;
+  int32 token_index = 50;
+  optional string utc_date = 51;
+  optional string local_date = 52;
+  string sdk_version = 53;
+  string app_version = 54;
+  int32 test_mode = 55;
+  string device_model = 56;
+  string device_manufacturer = 57;
+
+  optional int32 bluetooth = 58;
+  optional int32 dark_mode_enable = 59;
+  optional int32 headset = 60;
+  optional int32 sound_enable = 61;
+  optional int32 ppi = 62;
+  optional int32 is_walking = 63;
+  repeated string keyboard_lang = 64;
+  string orientation = 65;
+  optional int32 do_not_sell = 66;
+  optional string prev_session_start_date = 67;
+  optional string date = 68;
+  optional string idfv = 69;
+  optional string idfa = 70;
+  optional string appstore_id = 71;
+  optional string plugin_version = 74;
+  repeated CountInfo count_won_req = 75;
+  repeated CountInfo  count_click = 76;
+  repeated CountInfo count_imp = 77;
+  optional int32 appset_id_scope = 78;
+  optional string extra_signals = 79;
+  optional int64 boot_time = 80;
+}

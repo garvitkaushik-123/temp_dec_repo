@@ -1,0 +1,31 @@
+package io.ktor.serialization.kotlinx;
+
+import kotlin.Metadata;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+
+/* compiled from: KotlinxSerializationBase.kt */
+@Metadata(k = 3, mv = {1, 7, 1}, xi = 48)
+@DebugMetadata(c = "io.ktor.serialization.kotlinx.KotlinxSerializationBase", f = "KotlinxSerializationBase.kt", i = {0, 0}, l = {22, 30}, m = "serialize$ktor_serialization_kotlinx", n = {"this", "parameters"}, s = {"L$0", "L$1"})
+/* loaded from: classes8.dex */
+final class KotlinxSerializationBase$serialize$1 extends ContinuationImpl {
+    Object L$0;
+    Object L$1;
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ KotlinxSerializationBase<T> this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    KotlinxSerializationBase$serialize$1(KotlinxSerializationBase<T> kotlinxSerializationBase, Continuation<? super KotlinxSerializationBase$serialize$1> continuation) {
+        super(continuation);
+        this.this$0 = kotlinxSerializationBase;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return this.this$0.serialize$ktor_serialization_kotlinx(null, this);
+    }
+}

@@ -1,0 +1,7 @@
+package com.google.android.gms.internal.play_billing;
+
+/* compiled from: com.android.billingclient:billing@@8.0.0 */
+/* loaded from: classes5.dex */
+final class zzdv {
+    public static final /* synthetic */ int zza = 0;
+}

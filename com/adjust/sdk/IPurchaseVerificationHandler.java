@@ -1,0 +1,16 @@
+package com.adjust.sdk;
+
+import com.adjust.sdk.network.IActivityPackageSender;
+
+/* loaded from: classes2.dex */
+public interface IPurchaseVerificationHandler {
+    void init(IActivityHandler iActivityHandler, boolean z, IActivityPackageSender iActivityPackageSender);
+
+    void pauseSending();
+
+    void resumeSending();
+
+    void sendPurchaseVerificationPackage(ActivityPackage activityPackage);
+
+    void teardown();
+}

@@ -1,0 +1,63 @@
+package io.bidmachine.media3.common.util;
+
+/* loaded from: classes7.dex */
+public final class ConstantRateTimestampIterator implements TimestampIterator {
+    private final long endPositionUs;
+    private final float frameRate;
+    private int framesAdded;
+    private final double framesDurationUs;
+    private final long startPositionUs;
+    private final int totalNumberOfFramesToAdd;
+
+    public ConstantRateTimestampIterator(long j, float f) {
+        this(0L, j, f);
+    }
+
+    public ConstantRateTimestampIterator(long j, long j2, float f) {
+        boolean z = false;
+        Assertions.checkArgument(j2 > 0);
+        Assertions.checkArgument(f > 0.0f);
+        if (0 <= j && j < j2) {
+            z = true;
+        }
+        Assertions.checkArgument(z);
+        this.startPositionUs = j;
+        this.endPositionUs = j2;
+        this.frameRate = f;
+        this.totalNumberOfFramesToAdd = Math.max(Math.round(((j2 - j) / 1000000.0f) * f), 1);
+        this.framesDurationUs = 1000000.0f / f;
+    }
+
+    @Override // io.bidmachine.media3.common.util.TimestampIterator
+    public boolean hasNext() {
+        return this.framesAdded < this.totalNumberOfFramesToAdd;
+    }
+
+    @Override // io.bidmachine.media3.common.util.TimestampIterator
+    public long next() {
+        Assertions.checkState(hasNext());
+        int i = this.framesAdded;
+        this.framesAdded = i + 1;
+        return getTimestampUsAfter(i);
+    }
+
+    @Override // io.bidmachine.media3.common.util.TimestampIterator
+    public ConstantRateTimestampIterator copyOf() {
+        return new ConstantRateTimestampIterator(this.startPositionUs, this.endPositionUs, this.frameRate);
+    }
+
+    @Override // io.bidmachine.media3.common.util.TimestampIterator
+    public long getLastTimestampUs() {
+        int i = this.totalNumberOfFramesToAdd;
+        if (i == 0) {
+            return -9223372036854775807L;
+        }
+        return getTimestampUsAfter(i - 1);
+    }
+
+    private long getTimestampUsAfter(int i) {
+        long round = this.startPositionUs + Math.round(this.framesDurationUs * i);
+        Assertions.checkState(round >= 0);
+        return round;
+    }
+}

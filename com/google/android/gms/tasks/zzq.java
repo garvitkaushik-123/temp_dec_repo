@@ -1,0 +1,9 @@
+package com.google.android.gms.tasks;
+
+/* compiled from: com.google.android.gms:play-services-tasks@@18.2.1 */
+/* loaded from: classes5.dex */
+interface zzq<TResult> {
+    void zzc();
+
+    void zzd(Task task);
+}

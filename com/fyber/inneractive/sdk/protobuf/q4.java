@@ -1,0 +1,7 @@
+package com.fyber.inneractive.sdk.protobuf;
+
+/* loaded from: classes4.dex */
+public enum q4 {
+    ASCENDING,
+    DESCENDING
+}

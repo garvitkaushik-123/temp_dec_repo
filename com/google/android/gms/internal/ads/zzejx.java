@@ -1,0 +1,119 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.RemoteException;
+import io.adn.sdk.internal.data.repository.BidTokenRepositoryKt;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+/* loaded from: classes5.dex */
+public final class zzejx extends zzbrr {
+    private final String zza;
+    private final zzbrp zzb;
+    private final zzcak zzc;
+    private final JSONObject zzd;
+    private final long zze;
+    private boolean zzf;
+
+    public zzejx(String str, zzbrp zzbrpVar, zzcak zzcakVar, long j) {
+        JSONObject jSONObject = new JSONObject();
+        this.zzd = jSONObject;
+        this.zzf = false;
+        this.zzc = zzcakVar;
+        this.zza = str;
+        this.zzb = zzbrpVar;
+        this.zze = j;
+        try {
+            jSONObject.put("adapter_version", zzbrpVar.zzf().toString());
+            jSONObject.put(BidTokenRepositoryKt.SDK_VERSION, zzbrpVar.zzg().toString());
+            jSONObject.put("name", str);
+        } catch (RemoteException | NullPointerException | JSONException unused) {
+        }
+    }
+
+    public static synchronized void zzb(String str, zzcak zzcakVar) {
+        synchronized (zzejx.class) {
+            JSONObject jSONObject = new JSONObject();
+            try {
+                jSONObject.put("name", str);
+                jSONObject.put("signal_error", "Adapter failed to instantiate");
+                if (((Boolean) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzbM)).booleanValue()) {
+                    jSONObject.put("signal_error_code", 1);
+                }
+                zzcakVar.zzc(jSONObject);
+            } catch (JSONException unused) {
+            }
+        }
+    }
+
+    private final synchronized void zzh(String str, int i) {
+        if (this.zzf) {
+            return;
+        }
+        try {
+            JSONObject jSONObject = this.zzd;
+            jSONObject.put("signal_error", str);
+            if (((Boolean) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzbN)).booleanValue()) {
+                jSONObject.put("latency", com.google.android.gms.ads.internal.zzv.zzD().elapsedRealtime() - this.zze);
+            }
+            if (((Boolean) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzbM)).booleanValue()) {
+                jSONObject.put("signal_error_code", i);
+            }
+        } catch (JSONException unused) {
+        }
+        this.zzc.zzc(this.zzd);
+        this.zzf = true;
+    }
+
+    public final synchronized void zzc() {
+        zzh("Signal collection timeout.", 3);
+    }
+
+    public final synchronized void zzd() {
+        if (this.zzf) {
+            return;
+        }
+        try {
+            if (((Boolean) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzbM)).booleanValue()) {
+                this.zzd.put("signal_error_code", 0);
+            }
+        } catch (JSONException unused) {
+        }
+        this.zzc.zzc(this.zzd);
+        this.zzf = true;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbrs
+    public final synchronized void zze(String str) throws RemoteException {
+        if (this.zzf) {
+            return;
+        }
+        if (str == null) {
+            zzf("Adapter returned null signals");
+            return;
+        }
+        try {
+            JSONObject jSONObject = this.zzd;
+            jSONObject.put("signals", str);
+            if (((Boolean) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzbN)).booleanValue()) {
+                jSONObject.put("latency", com.google.android.gms.ads.internal.zzv.zzD().elapsedRealtime() - this.zze);
+            }
+            if (((Boolean) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzbM)).booleanValue()) {
+                jSONObject.put("signal_error_code", 0);
+            }
+        } catch (JSONException unused) {
+        }
+        this.zzc.zzc(this.zzd);
+        this.zzf = true;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbrs
+    public final synchronized void zzf(String str) throws RemoteException {
+        zzh(str, 2);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbrs
+    public final synchronized void zzg(com.google.android.gms.ads.internal.client.zze zzeVar) throws RemoteException {
+        zzh(zzeVar.zzb, 2);
+    }
+}

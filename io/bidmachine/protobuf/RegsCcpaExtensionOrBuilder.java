@@ -1,0 +1,12 @@
+package io.bidmachine.protobuf;
+
+import com.explorestack.protobuf.ByteString;
+import com.explorestack.protobuf.MessageOrBuilder;
+
+@Deprecated
+/* loaded from: classes8.dex */
+public interface RegsCcpaExtensionOrBuilder extends MessageOrBuilder {
+    String getUsPrivacy();
+
+    ByteString getUsPrivacyBytes();
+}

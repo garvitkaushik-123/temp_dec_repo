@@ -1,0 +1,114 @@
+package com.bytedance.sdk.openadsdk.component.reward.view;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import com.bytedance.sdk.openadsdk.core.model.ev;
+import com.bytedance.sdk.openadsdk.core.widget.PAGLogoView;
+import com.bytedance.sdk.openadsdk.core.widget.dV;
+import com.bytedance.sdk.openadsdk.utils.SSo;
+import com.bytedance.sdk.openadsdk.utils.aqO;
+
+/* loaded from: classes3.dex */
+public class MGA {
+    public static void eli(FrameLayout frameLayout, ev evVar) {
+        Context context = frameLayout.getContext();
+        com.bytedance.sdk.openadsdk.core.ui.kb kbVar = new com.bytedance.sdk.openadsdk.core.ui.kb(context);
+        kbVar.setId(aqO.Vy);
+        kbVar.setBackgroundColor(Color.parseColor("#F8F8F8"));
+        frameLayout.addView(kbVar, new FrameLayout.LayoutParams(-1, -1));
+        com.bytedance.sdk.openadsdk.common.nlS nls = new com.bytedance.sdk.openadsdk.common.nlS(context);
+        nls.setId(aqO.gG);
+        kbVar.addView(nls, new RelativeLayout.LayoutParams(-1, -1));
+        com.bytedance.sdk.openadsdk.core.ui.ui uiVar = new com.bytedance.sdk.openadsdk.core.ui.ui(context);
+        uiVar.setId(aqO.ujq);
+        uiVar.setOrientation(1);
+        uiVar.setVisibility(8);
+        uiVar.setGravity(1);
+        uiVar.setId(aqO.cyF);
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(-1, -2);
+        layoutParams.addRule(13);
+        kbVar.addView(uiVar, layoutParams);
+        dV dVVar = new dV(context);
+        dVVar.setId(aqO.KM);
+        uiVar.addView(dVVar, new LinearLayout.LayoutParams(SSo.DbA(context, 80.0f), SSo.DbA(context, 80.0f)));
+        com.bytedance.sdk.openadsdk.core.ui.wC wCVar = new com.bytedance.sdk.openadsdk.core.ui.wC(context);
+        wCVar.setId(aqO.VM);
+        wCVar.setTextColor(Color.parseColor("#161823"));
+        wCVar.setTextSize(2, 24.0f);
+        LinearLayout.LayoutParams layoutParams2 = new LinearLayout.LayoutParams(-2, -2);
+        layoutParams2.topMargin = SSo.DbA(context, 12.0f);
+        uiVar.addView(wCVar, layoutParams2);
+        com.bytedance.sdk.openadsdk.core.ui.wC wCVar2 = new com.bytedance.sdk.openadsdk.core.ui.wC(context);
+        wCVar2.setId(aqO.GB);
+        wCVar2.setGravity(17);
+        wCVar2.setTextColor(Color.parseColor("#80161823"));
+        wCVar2.setTextSize(2, 16.0f);
+        wCVar2.setTextAlignment(4);
+        LinearLayout.LayoutParams layoutParams3 = new LinearLayout.LayoutParams(-2, -2);
+        int DbA = SSo.DbA(context, 60.0f);
+        layoutParams3.leftMargin = DbA;
+        layoutParams3.rightMargin = DbA;
+        layoutParams3.setMarginStart(layoutParams3.leftMargin);
+        layoutParams3.setMarginEnd(layoutParams3.rightMargin);
+        layoutParams3.topMargin = SSo.DbA(context, 8.0f);
+        uiVar.addView(wCVar2, layoutParams3);
+        com.bytedance.sdk.openadsdk.core.ui.wC wCVar3 = new com.bytedance.sdk.openadsdk.core.ui.wC(context);
+        wCVar3.setId(aqO.oWW);
+        wCVar3.setGravity(17);
+        wCVar3.setTextColor(-1);
+        wCVar3.setText(com.bytedance.sdk.component.utils.ev.eli(context, "tt_video_mobile_go_detail"));
+        wCVar3.setBackground(com.bytedance.sdk.openadsdk.utils.du.eli(context, "tt_reward_video_download_btn_bg"));
+        LinearLayout.LayoutParams layoutParams4 = new LinearLayout.LayoutParams(SSo.DbA(context, 255.0f), SSo.DbA(context, 44.0f));
+        layoutParams4.topMargin = SSo.DbA(context, 32.0f);
+        uiVar.addView(wCVar3, layoutParams4);
+        com.bytedance.sdk.openadsdk.core.ui.wC wCVar4 = new com.bytedance.sdk.openadsdk.core.ui.wC(context);
+        wCVar4.setId(aqO.Ue);
+        wCVar4.setGravity(17);
+        wCVar4.setTextColor(-16777216);
+        wCVar4.setText("Sorry,this AD fails to load...");
+        wCVar4.setVisibility(8);
+        wCVar4.setGravity(1);
+        RelativeLayout.LayoutParams layoutParams5 = new RelativeLayout.LayoutParams(-1, -2);
+        layoutParams5.addRule(13);
+        kbVar.addView(wCVar4, layoutParams5);
+        PAGLogoView createPAGLogoViewByMaterial = PAGLogoView.createPAGLogoViewByMaterial(context, evVar);
+        createPAGLogoViewByMaterial.setId(aqO.qj);
+        RelativeLayout.LayoutParams layoutParams6 = new RelativeLayout.LayoutParams(-2, SSo.DbA(context, 14.0f));
+        layoutParams6.addRule(12);
+        layoutParams6.leftMargin = SSo.DbA(context, 16.0f);
+        layoutParams6.setMarginStart(layoutParams6.leftMargin);
+        layoutParams6.bottomMargin = SSo.DbA(context, 20.0f);
+        kbVar.addView(createPAGLogoViewByMaterial, layoutParams6);
+    }
+
+    public static void eli(FrameLayout frameLayout) {
+        Context context = frameLayout.getContext();
+        ui uiVar = new ui(context);
+        uiVar.setId(aqO.nlS);
+        uiVar.setVisibility(8);
+        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(-1, -2);
+        layoutParams.gravity = 80;
+        frameLayout.addView(uiVar, layoutParams);
+        com.bytedance.sdk.openadsdk.core.ui.ui uiVar2 = new com.bytedance.sdk.openadsdk.core.ui.ui(context);
+        uiVar2.setId(aqO.NU);
+        uiVar2.setVisibility(8);
+        frameLayout.addView(uiVar2, new FrameLayout.LayoutParams(-1, -1));
+        com.bytedance.sdk.component.FC.MGA mga = new com.bytedance.sdk.component.FC.MGA(context, true);
+        mga.setLayerType(2, null);
+        mga.setVisibility(4);
+        mga.setId(aqO.nn);
+        frameLayout.addView(mga, new FrameLayout.LayoutParams(-1, -1));
+        FrameLayout frameLayout2 = new FrameLayout(context);
+        frameLayout2.setId(aqO.Dfc);
+        frameLayout2.setVisibility(4);
+        frameLayout.addView(frameLayout2, new FrameLayout.LayoutParams(-1, -1));
+        com.bytedance.sdk.component.FC.MGA mga2 = new com.bytedance.sdk.component.FC.MGA(context, true);
+        mga2.setVisibility(8);
+        mga2.setId(aqO.aqO);
+        frameLayout.addView(mga2, new FrameLayout.LayoutParams(-1, -1));
+        frameLayout.addView(new RFEndCardBackUpLayout(context), new FrameLayout.LayoutParams(-1, -1));
+    }
+}

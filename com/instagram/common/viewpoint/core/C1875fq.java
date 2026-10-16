@@ -1,0 +1,51 @@
+package com.instagram.common.viewpoint.core;
+
+import java.util.HashMap;
+import java.util.Map;
+import javax.annotation.Nullable;
+
+/* renamed from: com.facebook.ads.redexgen.X.fq, reason: case insensitive filesystem */
+/* loaded from: assets/audience_network/classes2.dex */
+public final class C1875fq {
+    public float A00;
+    public EnumC1153Lr A01;
+    public Map<String, String> A02;
+
+    public C1875fq(EnumC1153Lr enumC1153Lr) {
+        this(enumC1153Lr, 0.0f);
+    }
+
+    public C1875fq(EnumC1153Lr enumC1153Lr, float f) {
+        this(enumC1153Lr, f, null);
+    }
+
+    public C1875fq(@Nullable EnumC1153Lr enumC1153Lr, float f, Map<String, String> windowParams) {
+        this.A01 = enumC1153Lr;
+        this.A00 = f;
+        if (windowParams != null) {
+            this.A02 = windowParams;
+        } else {
+            this.A02 = new HashMap();
+        }
+    }
+
+    public final float A00() {
+        return this.A00;
+    }
+
+    public final int A01() {
+        return this.A01.A03();
+    }
+
+    public final EnumC1153Lr A02() {
+        return this.A01;
+    }
+
+    public final Map<String, String> A03() {
+        return this.A02;
+    }
+
+    public final boolean A04() {
+        return this.A01 == EnumC1153Lr.A0I;
+    }
+}

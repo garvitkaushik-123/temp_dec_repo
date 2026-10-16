@@ -1,0 +1,39 @@
+package com.google.android.gms.ads.internal.util;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+import com.google.android.gms.common.internal.safeparcel.SafeParcelWriter;
+import com.google.android.gms.internal.ads.zzfdx;
+import com.google.android.gms.internal.ads.zzfwg;
+
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+/* loaded from: classes4.dex */
+public final class zzbb extends AbstractSafeParcelable {
+    public static final Parcelable.Creator<zzbb> CREATOR = new zzbc();
+    public final String zza;
+    public final int zzb;
+
+    zzbb(String str, int i) {
+        this.zza = str == null ? "" : str;
+        this.zzb = i;
+    }
+
+    public static zzbb zzb(Throwable th) {
+        com.google.android.gms.ads.internal.client.zze zza = zzfdx.zza(th);
+        return new zzbb(zzfwg.zzd(th.getMessage()) ? zza.zzb : th.getMessage(), zza.zza);
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        String str = this.zza;
+        int beginObjectHeader = SafeParcelWriter.beginObjectHeader(parcel);
+        SafeParcelWriter.writeString(parcel, 1, str, false);
+        SafeParcelWriter.writeInt(parcel, 2, this.zzb);
+        SafeParcelWriter.finishObjectHeader(parcel, beginObjectHeader);
+    }
+
+    public final zzba zza() {
+        return new zzba(this.zza, this.zzb);
+    }
+}

@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads-api@@24.5.0 */
+/* loaded from: classes5.dex */
+public final class zzbfn {
+    public static final zzbeo zza = zzbeo.zzb("gads:dynamite_load:fail:sample_rate", 10000);
+    public static final zzbeo zzb = zzbeo.zzd("gads:report_dynamite_crash_in_background_thread", false);
+    public static final zzbeo zzc = new zzbeo("gads:public_beta:traffic_multiplier", "1.0", 4);
+    public static final zzbeo zzd = new zzbeo("gads:sdk_crash_report_class_prefix", "com.google.", 4);
+    public static final zzbeo zze;
+    public static final zzbeo zzf;
+
+    static {
+        zzbeo.zzd("gads:sdk_crash_report_enabled", false);
+        zze = zzbeo.zzd("gads:sdk_crash_report_full_stacktrace", false);
+        zzf = zzbeo.zza("gads:trapped_exception_sample_rate", 0.01d);
+    }
+}

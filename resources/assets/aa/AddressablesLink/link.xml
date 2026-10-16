@@ -1,0 +1,1356 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AchievementManager" preserve="all" />
+    <type fullname="AnimationListener" preserve="all" />
+    <type fullname="Ara.AraTrail" preserve="all" />
+    <type fullname="Assets.PlayerProfiles.Data.CountriesDataStorage" preserve="all" />
+    <type fullname="AudioManager" preserve="all" />
+    <type fullname="AutoRotate" preserve="all" />
+    <type fullname="BannerHeightAdjuster" preserve="all" />
+    <type fullname="BehaviorDesigner.Runtime.BehaviorTree" preserve="all" />
+    <type fullname="BehaviorDesigner.Runtime.ExternalBehaviorTree" preserve="all" />
+    <type fullname="BitBenderGames.MobileTouchCamera" preserve="all" />
+    <type fullname="BitBenderGames.TouchInputController" preserve="all" />
+    <type fullname="BlinkController" preserve="all" />
+    <type fullname="BlinkingTrailController" preserve="all" />
+    <type fullname="BonusGameAnimationView" preserve="all" />
+    <type fullname="CanvasSizeFitter" preserve="all" />
+    <type fullname="Caramba.UIFramework.NonDrawingGraphic" preserve="all" />
+    <type fullname="CenterFixedImage" preserve="all" />
+    <type fullname="CenterImage" preserve="all" />
+    <type fullname="ChaptersHomeAuthorityChecker" preserve="all" />
+    <type fullname="ChaptersIntroScreenView" preserve="all" />
+    <type fullname="CharacterAnimatorController" preserve="all" />
+    <type fullname="Cheats.CustomTaskRunnerJobs" preserve="all" />
+    <type fullname="CircularTextMeshPro" preserve="all" />
+    <type fullname="CnControls.SimpleJoystick" preserve="all" />
+    <type fullname="ColoredAreaOfEffectView" preserve="all" />
+    <type fullname="CrownView" preserve="all" />
+    <type fullname="Crystal.SafeArea" preserve="all" />
+    <type fullname="CS.AudioToolkit.AudioController" preserve="all" />
+    <type fullname="CS.AudioToolkit.AudioObject" preserve="all" />
+    <type fullname="CS.Essentials.PoolableObject" preserve="all" />
+    <type fullname="CurrencyParticleController" preserve="all" />
+    <type fullname="CustomVertexStreamWorldRotationUpdater" preserve="all" />
+    <type fullname="DynamicBone" preserve="all" />
+    <type fullname="Flags" preserve="all" />
+    <type fullname="FlightModeController" preserve="all" />
+    <type fullname="FollowTarget" preserve="all" />
+    <type fullname="GameEndPodium" preserve="all" />
+    <type fullname="GameOps.UIFramework.Animations.UIBumpAnimation" preserve="all" />
+    <type fullname="GameOps.UIFramework.Animations.UIFadingAnimation" preserve="all" />
+    <type fullname="GameOps.UIFramework.Animations.UIFloatingAnimation" preserve="all" />
+    <type fullname="GameOps.UIFramework.Animations.UIRotatingAnimation" preserve="all" />
+    <type fullname="GameOps.UIFramework.Animations.UIScalingAnimation" preserve="all" />
+    <type fullname="GameOps.UIFramework.Animations.UITintAnimation" preserve="all" />
+    <type fullname="GameOps.UIFramework.Components.Buttons.UIButtonActivationHelperView" preserve="all" />
+    <type fullname="GameOps.UIFramework.Components.Buttons.UIButtonView" preserve="all" />
+    <type fullname="GameOps.UIFramework.Components.Buttons.UIButtonViewSettings" preserve="all" />
+    <type fullname="GameOps.UIFramework.NavBar.NavBarController" preserve="all" />
+    <type fullname="GameOps.UIFramework.NavBar.NavBarNotificationView" preserve="all" />
+    <type fullname="GameOps.UIFramework.NavBar.NavBarSecondaryNotificationView" preserve="all" />
+    <type fullname="GameOps.UIFramework.NavBar.NavBarSelection" preserve="all" />
+    <type fullname="GameOps.UIFramework.NavBar.NavBarView" preserve="all" />
+    <type fullname="GameOps.UIFramework.NavBar.NavTabView" preserve="all" />
+    <type fullname="GameOps.UIFramework.Transitions.UIConditionalTransition" preserve="all" />
+    <type fullname="GameOps.UIFramework.Transitions.UIEventScreenTransition" preserve="all" />
+    <type fullname="GameOps.UIFramework.Transitions.UIFadeTransition" preserve="all" />
+    <type fullname="GameOps.UIFramework.Transitions.UIPopupTransition" preserve="all" />
+    <type fullname="GameOps.UIFramework.Transitions.UISlideTransition" preserve="all" />
+    <type fullname="GameOps.UIFramework.UIConfiguration" preserve="all" />
+    <type fullname="GameOps.UIFramework.UIController" preserve="all" />
+    <type fullname="GameOps.UIFramework.UIViewActivationWorker" preserve="all" />
+    <type fullname="GameOps.UIFramework.Utils.PremiumHeightSetter" preserve="all" />
+    <type fullname="GameOps.UIGame.GameScreenView" preserve="all" />
+    <type fullname="GameOps.UIGame.WorldScreenView" preserve="all" />
+    <type fullname="GameplayColorPumpItem" preserve="all" />
+    <type fullname="GameplayContainerController" preserve="all" />
+    <type fullname="GameplayController" preserve="all" />
+    <type fullname="GameplayMilestonesPrizeLayoutView" preserve="all" />
+    <type fullname="GameplayMinimapPositionController" preserve="all" />
+    <type fullname="GameplayNotificationController" preserve="all" />
+    <type fullname="GameResultsCell" preserve="all" />
+    <type fullname="GenericConfirmationPopup" preserve="all" />
+    <type fullname="GummyButtonV2" preserve="all" />
+    <type fullname="HeaderView" preserve="all" />
+    <type fullname="I2.Loc.Localize" preserve="all" />
+    <type fullname="KillToWinController" preserve="all" />
+    <type fullname="KillToWinPlayerSlotView" preserve="all" />
+    <type fullname="KillToWinPlayerView" preserve="all" />
+    <type fullname="KillToWinPrizeView" preserve="all" />
+    <type fullname="KillToWinScreenView" preserve="all" />
+    <type fullname="LocalizationParametersController" preserve="all" />
+    <type fullname="LocalSoundTrigger" preserve="all" />
+    <type fullname="MainMenuMetaButtons" preserve="all" />
+    <type fullname="MainMenuShadow" preserve="all" />
+    <type fullname="MarketingEventsHandler" preserve="all" />
+    <type fullname="MinimapController" preserve="all" />
+    <type fullname="MinimapRenderer" preserve="all" />
+    <type fullname="MusicManager" preserve="all" />
+    <type fullname="NoAdsChecker" preserve="all" />
+    <type fullname="OutfitsPopoverCloser" preserve="all" />
+    <type fullname="Paper.Multiplayer.PartyGameplayView" preserve="all" />
+    <type fullname="Paper2.AbsorptionParticles.AbsorptionArrivalReaction" preserve="all" />
+    <type fullname="Paper2.AbsorptionParticles.AbsorptionHomingMotion" preserve="all" />
+    <type fullname="Paper2.AbsorptionParticles.AbsorptionParticlesController" preserve="all" />
+    <type fullname="Paper2.AutoRun.AutoRunController" preserve="all" />
+    <type fullname="Paper2.AutoRun.AutoRunDefinitionData" preserve="all" />
+    <type fullname="Paper2.AutoRun.AutoRunDefinitionsDataContainer" preserve="all" />
+    <type fullname="Paper2.AutoRun.AutoRunnerScreenView" preserve="all" />
+    <type fullname="Paper2.AutoRun.AutoRunSessionTemplate" preserve="all" />
+    <type fullname="Paper2.AutoRun.AutoRunSessionTemplatesContainer" preserve="all" />
+    <type fullname="Paper2.AutoStart.AutoStartButtonView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameController" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameDataModel" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeAnimator" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeCounterElementView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeCounterView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameRvPopupView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameScreenView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameSpawnManager" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameSpinService" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameTimerView" preserve="all" />
+    <type fullname="Paper2.BonusGame.BonusGameV2DataModel" preserve="all" />
+    <type fullname="Paper2.Bots.BotProfiles.AdaptiveDifficultyConfiguration" preserve="all" />
+    <type fullname="Paper2.Bots.BotProfiles.BehaviorTreeConfig" preserve="all" />
+    <type fullname="Paper2.Bots.BotProfiles.BotProfileConfiguration" preserve="all" />
+    <type fullname="Paper2.Bots.BotProfiles.BotProfileProvider" preserve="all" />
+    <type fullname="Paper2.Bots.BotProfiles.GameplayAIController" preserve="all" />
+    <type fullname="Paper2.BotTrainAnimations.BotTrainAnimationsTrainCar" preserve="all" />
+    <type fullname="Paper2.BreaktimeWithTimer.BreaktimeOverlayController" preserve="all" />
+    <type fullname="Paper2.BreaktimeWithTimer.BreaktimeTimerController" preserve="all" />
+    <type fullname="Paper2.Chapters.ChapterBackgroundController" preserve="all" />
+    <type fullname="Paper2.Chapters.ChapterLeaderboardScreenView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersActiveAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersChunkDB" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersExplanationPopupView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLeaderboardEntry" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLeaderboardExplanationPopupView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLevelCompletedScreenView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLevelEndCurrencyView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLevelEndProgressBar" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLevelEndScreenView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersLevelPanelView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersMapBackground" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersMapChunkRoot" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersOverlayView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersPlayButtonView" preserve="all" />
+    <type fullname="Paper2.Chapters.ChaptersSeasonScreenView" preserve="all" />
+    <type fullname="Paper2.Chapters.CollectionView" preserve="all" />
+    <type fullname="Paper2.Chapters.CompositionMetadata" preserve="all" />
+    <type fullname="Paper2.Chapters.Conditions.ChaptersAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Chapters.Conditions.ChaptersPreStadiumAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Chapters.Conditions.ChaptersStadiumAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Chapters.GummyCharacterClipper" preserve="all" />
+    <type fullname="Paper2.Chapters.NodeRewardUi" preserve="all" />
+    <type fullname="Paper2.Chapters.NodeUi" preserve="all" />
+    <type fullname="Paper2.Chapters.PlayerProgressBubble" preserve="all" />
+    <type fullname="Paper2.Chapters.PropMetadata" preserve="all" />
+    <type fullname="Paper2.Chapters.UI.CurrencyTransition" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.CharacterInfosOutfitsView" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.CharacterOutfitsController" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsCardView" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsDealItemview" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsOfferChecker" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsPopoverView" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsPopupView" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsRectTransformer" preserve="all" />
+    <type fullname="Paper2.CharacterOutfits.OutfitsSpriteReplacer" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.AssetManagement.CharacterPowersBundlePrewarmer" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterClass" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterController" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterHealthbarView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharactersConfiguration" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharactersHealthBarManager" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharactersManager" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharactersViewConfiguration" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Characters.SharedVFXConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.Controller.PowersChestChecker" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowerChestPartView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowerChestPieceView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestAddCardView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestBackgroundUVSetter" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestCardView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestChipsView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestCounterView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestCursorCardView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestLayoutController" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestPopupView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowersChestView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Inputs.CharacterRotator" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.BetterVision.BetterVisionPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.BetterVision.BetterVisionScreenView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.DamageZonePowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.PowerObjectThrowableImpactPreview" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.PowerObjectThrowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.PowerPaintCreator.PowerPaintCreatorViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.PowerPreviewEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.SpawnableFollower" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.Tail" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.TailSegment" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.FasterInEnemyTerritory.FasterInPaintedTerritoryEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.FasterInEnemyTerritory.FasterInPaintedTerritoryPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.FasterInNeutralTerritory.FasterInNeutralTerritoryEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.FasterInNeutralTerritory.FasterInNeutralTerritoryPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.HiddenTreasure.HiddenTreasurePowerView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.InstantDash.InstantDashPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.MiniMapRadar.MiniMapRadarPowerView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.MiniMapRadar.MiniMapRadarPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintBowling.PaintBowlingEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintBowling.PaintBowlingPowerView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintBowling.PaintBowlingPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintCircle.PaintCircleEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintCircle.PaintCirclePowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintCone.PaintConeEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintCone.PaintConePowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintMines.PaintMineProjectile" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintMines.PaintMinesPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.TrailPulse.TrailPulseEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.TrailPulse.TrailPulsePowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.PowerKillerCollider" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.PowersConfiguration" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.RockTail.RockTailPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShieldedArea.ShieldedAreaDebugView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShieldedArea.ShieldedAreaPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShieldedArea.ShieldedAreaView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShockField.ShockFieldPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShockField.ShockFieldView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShockWave.ShockWavePowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShockWave.ShockWaveView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.Sprinter.SprinterPowerViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.TerritoryViscosity.TerrainViscosityEffectView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.TerritoryViscosity.TerritoryViscosityViewConfig" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Powers.VFX.ZoneShapeVFX" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionCardAnimationView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionCardBackgroundView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionCardView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionHeaderView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionRowView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionScreenView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionScrollView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionShakeView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionSliderView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionSortingButtonView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionSortingView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionUpgradeAnimationView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Spawning.SpawnableDebugVisualizer" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.Spawning.SpawnablePowersManager" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CardFreeDealItem" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CardOfferShopItem" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CardOffersShopSection" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CardShopCurrencyItem" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CardsParticleController" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterCardsGauge" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterClassBadge" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterDiscoveryScreenView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterHeaderBackground" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterInfosCarousel" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterInfosScreenView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterPedestal" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterPowerGauge" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterPowersTutorialScreenView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterSkewedGround" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CharactersShopScreenView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.ChestShopItem" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.ClassicChestDealItem" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.CoinsFreeDealItem" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.Inputs.SwipeDetector" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.UI.PrismFlare" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.View.PowersBreakTimePopupView" preserve="all" />
+    <type fullname="Paper2.CharacterPowers.View.PowerUIProgressView" preserve="all" />
+    <type fullname="Paper2.Chests.ChestsAnimationListener" preserve="all" />
+    <type fullname="Paper2.Chests.ChestsController" preserve="all" />
+    <type fullname="Paper2.Chests.ChestUIView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.Controller.CollectToWinChecker" preserve="all" />
+    <type fullname="Paper2.CollectToWin.Controller.CollectToWinController" preserve="all" />
+    <type fullname="Paper2.CollectToWin.Controller.CollectToWinSpawnController" preserve="all" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinIconHelper" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinBubbleLayoutView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinCollectibleView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinFillbarView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinHudView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinPrizeBubbleView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinPrizeView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinScreenView" preserve="all" />
+    <type fullname="Paper2.CollectToWin.View.CollectToWinVariantView" preserve="all" />
+    <type fullname="Paper2.CollisionSystem.Services.CustomCollisionController" preserve="all" />
+    <type fullname="Paper2.Core.AssetManagement.AssetManager" preserve="all" />
+    <type fullname="Paper2.Core.AssetManagement.BundlesPrewarmController" preserve="all" />
+    <type fullname="Paper2.Core.Camera.CameraRenderScaler" preserve="all" />
+    <type fullname="Paper2.Core.Camera.MainCameraController" preserve="all" />
+    <type fullname="Paper2.Core.Camera.UiCameraController" preserve="all" />
+    <type fullname="Paper2.Core.Conditions.CharacterSelectionScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Core.Conditions.CharacterShopScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Core.Conditions.DefaultGameplayScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Core.Conditions.DefaultLevelEndScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Core.Conditions.MissionsScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Core.Conditions.WorldScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Core.Controller.ChestsChecker" preserve="all" />
+    <type fullname="Paper2.Core.Controller.HomeScreenAuthorityController" preserve="all" />
+    <type fullname="Paper2.Core.Controller.KillToWinChecker" preserve="all" />
+    <type fullname="Paper2.Core.Controller.PlaytimeController" preserve="all" />
+    <type fullname="Paper2.Core.Controller.SpecialOfferChecker" preserve="all" />
+    <type fullname="Paper2.Core.Controller.TeamBattleChecker" preserve="all" />
+    <type fullname="Paper2.Core.Controller.WorldChecker" preserve="all" />
+    <type fullname="Paper2.Core.Misc.RendererVisibilityRelay" preserve="all" />
+    <type fullname="Paper2.Core.Revive.RevivePopupController" preserve="all" />
+    <type fullname="Paper2.Core.Revive.RevivePopupPlayerView" preserve="all" />
+    <type fullname="Paper2.Core.Revive.RevivePopupView" preserve="all" />
+    <type fullname="Paper2.Core.TMPCustomMaterialTag" preserve="all" />
+    <type fullname="Paper2.Core.View.EventButtonsGroupController" preserve="all" />
+    <type fullname="Paper2.Core.View.EventButtonsView" preserve="all" />
+    <type fullname="Paper2.Core.View.EventButtonView" preserve="all" />
+    <type fullname="Paper2.Currencies.Helpers.CurrencySpriteHelper" preserve="all" />
+    <type fullname="Paper2.DataSaving.Views.DataSavingMergeAccountsView" preserve="all" />
+    <type fullname="Paper2.DifficultyTuningSystem.BotSumSize.CustomShapeData" preserve="all" />
+    <type fullname="Paper2.DifficultyTuningSystem.Config.DifficultyTuningShapeReferences" preserve="all" />
+    <type fullname="Paper2.DifficultyTuningSystem.Controller.DifficultyTuningSystemController" preserve="all" />
+    <type fullname="Paper2.DynamicSpecialOffer.Model.DynamicSpecialOfferVisualConfig" preserve="all" />
+    <type fullname="Paper2.DynamicSpecialOffer.View.DynamicSpecialOfferPopupView" preserve="all" />
+    <type fullname="Paper2.Economy.Controller.EconomyController" preserve="all" />
+    <type fullname="Paper2.EnemyTrainSpeedboost.EnemyTrainSpeedboostBotTrainAnimationsTrainCar" preserve="all" />
+    <type fullname="Paper2.EnemyTrainSpeedboost.EnemyTrainSpeedboostTrainCar" preserve="all" />
+    <type fullname="Paper2.FakeInvite.Views.FakeInvitePopupView" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.FriendInvitePopupController" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.FriendRequestPushAuthorityChecker" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.FriendsListFriendItem" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.FriendsListPopupController" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.FriendsListSectionTitle" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.LiveNotificationService" preserve="all" />
+    <type fullname="Paper2.Features.FriendsList.OnlineFriendsIndicator" preserve="all" />
+    <type fullname="Paper2.Features.GameplayMilestones.Scripts.View.GameplayMilestonesPrizeCardView" preserve="all" />
+    <type fullname="Paper2.Features.InstantWin.Views.ContinentUnlockedView" preserve="all" />
+    <type fullname="Paper2.Features.InstantWin.Views.CountryInstantWinView" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.BotSkinsConfig" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.LockedPartyModeButton" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.MapRandomization.ArenaCatalog" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PaintBattle.PartyModeGameplayController" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PaintBattle.PartyModeHomeAuthorityChecker" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyLobbyBackgroundController" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeButton" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeDropdownPanelView" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeOptionCard" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModePillView" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeSelector" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeService" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeTheme" preserve="all" />
+    <type fullname="Paper2.Features.Multiplayer.RoomInviteService" preserve="all" />
+    <type fullname="Paper2.Features.Nakama.Friends.FriendListConfig" preserve="all" />
+    <type fullname="Paper2.Features.Nakama.Friends.FriendsService" preserve="all" />
+    <type fullname="Paper2.Features.Nakama.Friends.RoomInvitesConfig" preserve="all" />
+    <type fullname="Paper2.Features.Party.BonusTrophiesCountLabel" preserve="all" />
+    <type fullname="Paper2.Features.Party.Config.QuantumReplayService" preserve="all" />
+    <type fullname="Paper2.Features.Party.Config.QuantumSnapshotService" preserve="all" />
+    <type fullname="Paper2.Features.Party.NotAllReadyPopup" preserve="all" />
+    <type fullname="Paper2.Features.Party.PartyForceUpdatePopup" preserve="all" />
+    <type fullname="Paper2.Features.Party.PartyPlayerCell" preserve="all" />
+    <type fullname="Paper2.Features.Party.PartySubtitleView" preserve="all" />
+    <type fullname="Paper2.Features.Party.PartyTooltipView" preserve="all" />
+    <type fullname="Paper2.Features.Party.PlayerAvatar" preserve="all" />
+    <type fullname="Paper2.Features.Party.ReadyPingHandler" preserve="all" />
+    <type fullname="Paper2.Features.Party.Scripts.PedestalClickHandler" preserve="all" />
+    <type fullname="Paper2.Features.Party.Scripts.PedestalKickTooltip" preserve="all" />
+    <type fullname="Paper2.Features.Party.SilhouetteCamera" preserve="all" />
+    <type fullname="Paper2.Features.Party.SilhouetteRawImage" preserve="all" />
+    <type fullname="Paper2.Features.Party.SilhouetteVisibilityController" preserve="all" />
+    <type fullname="Paper2.Features.Party.TrophyBonusIndicator" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.Scripts.UI.TrophiesLabel" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.ClaimRewardOverlay" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.PartyLeaderboardsButton" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.PartyLeaderboardsPopup" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.PartyLeaderboardsRow" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.TrophiesFlyAnimation" preserve="all" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.TrophyMilestonesProgressBar" preserve="all" />
+    <type fullname="Paper2.Features.ReskinnedUI.Settings.SettingsPopupViewV2" preserve="all" />
+    <type fullname="Paper2.Features.ReskinnedUI.Settings.SettingsSliderHelper" preserve="all" />
+    <type fullname="Paper2.Features.ReskinnedUI.Settings.SettingsVolumeSliderHelper" preserve="all" />
+    <type fullname="Paper2.Features.TeamBattle.TeamBattleGameplay.TeamBattlePlayerConfig" preserve="all" />
+    <type fullname="Paper2.Features.World.RendererSortingOverride" preserve="all" />
+    <type fullname="Paper2.FTUE.FirstWeekAuthorityChecker" preserve="all" />
+    <type fullname="Paper2.FTUE.FtueMissionPanelController" preserve="all" />
+    <type fullname="Paper2.GameAbandonment.GameAbandonmentController" preserve="all" />
+    <type fullname="Paper2.Gameplay.AttractableSpawnableService" preserve="all" />
+    <type fullname="Paper2.Gameplay.BotsPool" preserve="all" />
+    <type fullname="Paper2.Gameplay.Controller.FlyingTextController" preserve="all" />
+    <type fullname="Paper2.Gameplay.GameManager" preserve="all" />
+    <type fullname="Paper2.Gameplay.GameplayBotsPoolConfig" preserve="all" />
+    <type fullname="Paper2.Gameplay.GameplayZonesPoolConfig" preserve="all" />
+    <type fullname="Paper2.Gameplay.ObjectPool.ObjectPoolManager" preserve="all" />
+    <type fullname="Paper2.Gameplay.ObjectPool.PoolPreRegisteredItemsConfig" preserve="all" />
+    <type fullname="Paper2.Gameplay.Train.EnemyTrainCar" preserve="all" />
+    <type fullname="Paper2.Gameplay.Train.EnemyTrainCarsPool" preserve="all" />
+    <type fullname="Paper2.Gameplay.Train.EnemyTrainCarsPoolConfig" preserve="all" />
+    <type fullname="Paper2.Gameplay.Train.GameplayTrain" preserve="all" />
+    <type fullname="Paper2.Gameplay.Train.TeamBattleTrain" preserve="all" />
+    <type fullname="Paper2.Gameplay.Utils.LayersProvider" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.CrownViewsPool" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.CrownViewsPoolConfig" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.CurrencyVariantView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayCurrencyView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayFlyingTextView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayKillCountView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayLeaderboardRowView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayLeaderboardView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayMinimapIconsController" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayMinimapIconView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplayMinimapView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.GameplaySkinNotificationView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.KillCountVariantView" preserve="all" />
+    <type fullname="Paper2.Gameplay.View.LeaderboardContainerView" preserve="all" />
+    <type fullname="Paper2.Gameplay.ZoneIntroductionInflateConfig" preserve="all" />
+    <type fullname="Paper2.Gameplay.ZonesPool" preserve="all" />
+    <type fullname="Paper2.GameplayBorders.GameplayBordersController" preserve="all" />
+    <type fullname="Paper2.GameplayBorders.GameplayBordersTextureBackgroundAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.GameplayBorders.PlaygroundBorderSettings" preserve="all" />
+    <type fullname="Paper2.GameplayBorders.PlaygroundBorderView" preserve="all" />
+    <type fullname="Paper2.GameplayMilestones.Controller.GameplayMilestonesAuthority" preserve="all" />
+    <type fullname="Paper2.GameplayMilestones.View.GameplayMilestonesAnimationListener" preserve="all" />
+    <type fullname="Paper2.GameplayMilestones.View.GameplayMilestonesLevelProgressView" preserve="all" />
+    <type fullname="Paper2.GameplayMilestones.View.GameplayMilestonesMultiplierButtonView" preserve="all" />
+    <type fullname="Paper2.GameplayMilestones.View.GameplayMilestonesMultiplierCursorView" preserve="all" />
+    <type fullname="Paper2.GameplayMilestones.View.GameplayMilestonesPrizeView" preserve="all" />
+    <type fullname="Paper2.GameplayPowerUIReskin.PowerUIProgressViewV2" preserve="all" />
+    <type fullname="Paper2.GameplayReskin.GameplayRadialProgressBar" preserve="all" />
+    <type fullname="Paper2.GameplayShadows.GameplayShadowView" preserve="all" />
+    <type fullname="Paper2.GameplayUIImprovements.GameplayUIImprovementsChaptersHudAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.GameplayUIImprovements.GameplayUIImprovementsHudAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.GameplayVfx.View.PlayerNewVfxView" preserve="all" />
+    <type fullname="Paper2.GameplayVfx.View.PlayerVfxInstanceView" preserve="all" />
+    <type fullname="Paper2.GameplayVfx.View.VfxColorBinder" preserve="all" />
+    <type fullname="Paper2.GenZToasts.GenZToastsWordingModel" preserve="all" />
+    <type fullname="Paper2.GlowyCountryFill.GlowyCountryFillHoming" preserve="all" />
+    <type fullname="Paper2.GlowyCountryFill.GlowyCountryFillView" preserve="all" />
+    <type fullname="Paper2.Haptics.Controller.AnimationHapticRelay" preserve="all" />
+    <type fullname="Paper2.Haptics.Controller.DummyHapticController" preserve="all" />
+    <type fullname="Paper2.Haptics.Controller.NewAndroidHapticController" preserve="all" />
+    <type fullname="Paper2.Haptics.Controller.NewIosHapticController" preserve="all" />
+    <type fullname="Paper2.Home.Controller.HomeController" preserve="all" />
+    <type fullname="Paper2.Home.Controller.StartRVController" preserve="all" />
+    <type fullname="Paper2.Home.View.HomeBackgroundView" preserve="all" />
+    <type fullname="Paper2.Home.View.HomePlayButtonView" preserve="all" />
+    <type fullname="Paper2.Home.View.HomeScreenView" preserve="all" />
+    <type fullname="Paper2.IAP.View.NoAdsController" preserve="all" />
+    <type fullname="Paper2.IAP.View.NoAdsPopupView" preserve="all" />
+    <type fullname="Paper2.IAP.View.ShopSlotView" preserve="all" />
+    <type fullname="Paper2.ImprovedBotTrain.ImprovedBotTrainController" preserve="all" />
+    <type fullname="Paper2.ImprovedSpecialOffer.ImprovedSpecialOfferPopupView" preserve="all" />
+    <type fullname="Paper2.Journey.Controller.JourneyController" preserve="all" />
+    <type fullname="Paper2.LevelEnd.Controller.LevelEndController" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.CountryProgressIndicatorView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.CountryView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.CountryWaveView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.FlagView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.LevelEndScreenView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.PaintBucketButtonView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.SkinDisplayView" preserve="all" />
+    <type fullname="Paper2.LevelEnd.View.SkinDisplayViewConfig" preserve="all" />
+    <type fullname="Paper2.LightGameplayUI.LightBreakTimeClockView" preserve="all" />
+    <type fullname="Paper2.LightGameplayUI.LightNotificationLayoutAnchor" preserve="all" />
+    <type fullname="Paper2.LightGameplayUI.LightSkinNotificationView" preserve="all" />
+    <type fullname="Paper2.Lighting.View.GameplayLightView" preserve="all" />
+    <type fullname="Paper2.Lighting.View.HomeLightView" preserve="all" />
+    <type fullname="Paper2.Lighting.View.WorldLightView" preserve="all" />
+    <type fullname="Paper2.LoadingOverlay.CloudsLoadingView" preserve="all" />
+    <type fullname="Paper2.LoadingOverlay.DefaultLoadingView" preserve="all" />
+    <type fullname="Paper2.LoadingOverlay.ImageLoadingView" preserve="all" />
+    <type fullname="Paper2.LoadingOverlay.LoadingView" preserve="all" />
+    <type fullname="Paper2.LoadingOverlay.MaskedLoadingView" preserve="all" />
+    <type fullname="Paper2.MapEdgeSparksVfx.MapEdgeSparksVfxController" preserve="all" />
+    <type fullname="Paper2.Missions.Conditions.MissionsV2ScreenAvailabilityCondition" preserve="all" />
+    <type fullname="Paper2.Missions.Controller.WeeklyMissionsController" preserve="all" />
+    <type fullname="Paper2.Missions.MissionsV2IconsHolder" preserve="all" />
+    <type fullname="Paper2.Missions.MissionsV2MainRewardView" preserve="all" />
+    <type fullname="Paper2.Missions.MissionsV2PanelView" preserve="all" />
+    <type fullname="Paper2.Missions.MissionsV2RewardView" preserve="all" />
+    <type fullname="Paper2.Missions.MissionsV2ScreenView" preserve="all" />
+    <type fullname="Paper2.Missions.MissionsV2SlotView" preserve="all" />
+    <type fullname="Paper2.Missions.Model.HighscoreMissionRequirementModel" preserve="all" />
+    <type fullname="Paper2.Missions.Model.MissionAssetReferenceModel" preserve="all" />
+    <type fullname="Paper2.Missions.Model.MissionFtaRequirementModel" preserve="all" />
+    <type fullname="Paper2.Missions.Model.MissionModel" preserve="all" />
+    <type fullname="Paper2.Missions.Model.SkinsMissionRequirementModel" preserve="all" />
+    <type fullname="Paper2.Missions.UI.AchievementNotificationLayout" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsDaysListView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsDayView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsFooterButtonView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsListItemCursorView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsListItemPrizeView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsListItemProgressView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsListItemView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsListSlotView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsListView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsNotificationView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsPrizePanelArrowView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsPrizePanelView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionsScreenView" preserve="all" />
+    <type fullname="Paper2.Missions.View.MissionUiTheme" preserve="all" />
+    <type fullname="Paper2.Missions.WeeklyMissionsNotificationController" preserve="all" />
+    <type fullname="Paper2.NotEnoughPopUp.View.NotEnoughPopUpView" preserve="all" />
+    <type fullname="Paper2.PaintParticles.PaintParticlesManager" preserve="all" />
+    <type fullname="Paper2.PaintParticles.PaintParticlesPool" preserve="all" />
+    <type fullname="Paper2.PaintParticles.PaintParticlesPoolConfig" preserve="all" />
+    <type fullname="Paper2.PaperDecals.PaperDecalsView" preserve="all" />
+    <type fullname="Paper2.Particles.PlayerParticlesManager" preserve="all" />
+    <type fullname="Paper2.PlayerHighlightRanking.PlayerHighlightRankingCohortCondition" preserve="all" />
+    <type fullname="Paper2.PlayerHighlightRanking.RankUpHighlightVfx" preserve="all" />
+    <type fullname="Paper2.Pooling.GameplayPoolsManager" preserve="all" />
+    <type fullname="Paper2.Pooling.MainPoolsManager" preserve="all" />
+    <type fullname="Paper2.Pooling.MultiplayerPoolsManager" preserve="all" />
+    <type fullname="Paper2.Pooling.PlayerVfxPool" preserve="all" />
+    <type fullname="Paper2.Pooling.PlayerVfxPoolConfig" preserve="all" />
+    <type fullname="Paper2.Pooling.TeamBattlePoolsManager" preserve="all" />
+    <type fullname="Paper2.Powerups.CoinFX" preserve="all" />
+    <type fullname="Paper2.Powerups.CoinFxManager" preserve="all" />
+    <type fullname="Paper2.Powerups.CoinFxPool" preserve="all" />
+    <type fullname="Paper2.Powerups.CoinFxPoolConfig" preserve="all" />
+    <type fullname="Paper2.Powerups.Views.BreakTimeClockView" preserve="all" />
+    <type fullname="Paper2.Profile.PlayerProfilePopupView" preserve="all" />
+    <type fullname="Paper2.RareSkinsUnlock.RareSkinsUnlockManager" preserve="all" />
+    <type fullname="Paper2.RealGameplayShadows.RealGameplayShadowsController" preserve="all" />
+    <type fullname="Paper2.RedeemableCodes.RedeemCodePanel" preserve="all" />
+    <type fullname="Paper2.ReplaceCharacterMaterial.ReplaceCharacterMaterialController" preserve="all" />
+    <type fullname="Paper2.ReskinnedUI.MainMenu.CountryProgressBarView" preserve="all" />
+    <type fullname="Paper2.ReskinnedUI.MainMenu.SettingsButtonView" preserve="all" />
+    <type fullname="Paper2.RetractingTrail.RetractingTrailController" preserve="all" />
+    <type fullname="Paper2.RetractingTrail.RetractingTrailVfxPool" preserve="all" />
+    <type fullname="Paper2.RetractingTrail.RetractingTrailVfxPoolConfig" preserve="all" />
+    <type fullname="Paper2.RvMultiplier.View.RvMultiplierSegmentView" preserve="all" />
+    <type fullname="Paper2.RvMultiplier.View.RvMultiplierView" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Controller.ProjectServiceController" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Controller.SceneServiceController" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.DebugGameplayTrackersInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.GameplayServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.MultiplayerGameServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.PreloaderServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.ProjectMainServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.SceneMainServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.SceneUIServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.ServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ServiceLocator.Installers.TeamBattleServicesInstaller" preserve="all" />
+    <type fullname="Paper2.ShaderPrewarmer.ShaderPrewarmConfig" preserve="all" />
+    <type fullname="Paper2.ShaderPrewarmer.ShaderPrewarmController" preserve="all" />
+    <type fullname="Paper2.ShaderPrewarmer.ShaderPrewarmer" preserve="all" />
+    <type fullname="Paper2.ShadowsExtended.ShadowsExtendedController" preserve="all" />
+    <type fullname="Paper2.Skins.Controller.SkinController" preserve="all" />
+    <type fullname="Paper2.Skins.Model.SkinModel" preserve="all" />
+    <type fullname="Paper2.Skins.Popup.SkinAnimationListener" preserve="all" />
+    <type fullname="Paper2.Skins.Popup.SkinNotificationController" preserve="all" />
+    <type fullname="Paper2.Skins.Popup.SkinTrailHelper" preserve="all" />
+    <type fullname="Paper2.Skins.SkinLODController" preserve="all" />
+    <type fullname="Paper2.Skins.SkinView" preserve="all" />
+    <type fullname="Paper2.Skins.SkinViewConfig" preserve="all" />
+    <type fullname="Paper2.SmoothTrails.PlayerTrailView" preserve="all" />
+    <type fullname="Paper2.SmoothTrails.ProceduralLineRenderer" preserve="all" />
+    <type fullname="Paper2.SmoothZoneBorders.SmoothZoneBorderView" preserve="all" />
+    <type fullname="Paper2.SpecialOffer.SpecialOfferCheckmarkView" preserve="all" />
+    <type fullname="Paper2.SpecialOffer.SpecialOfferTooltipView" preserve="all" />
+    <type fullname="Paper2.StealBotTrain.StealBotTrainController" preserve="all" />
+    <type fullname="Paper2.Toast.Controller.ToastController" preserve="all" />
+    <type fullname="Paper2.Toast.View.GeneralToastView" preserve="all" />
+    <type fullname="Paper2.TutorialBots.QuickRespawnController" preserve="all" />
+    <type fullname="Paper2.TutorialBots.QuickRespawnPopupMask" preserve="all" />
+    <type fullname="Paper2.TutorialBots.QuickRespawnPopupView" preserve="all" />
+    <type fullname="Paper2.UI.Controller.LevelProgressController" preserve="all" />
+    <type fullname="Paper2.UI.Controller.NavBarUnlocksController" preserve="all" />
+    <type fullname="Paper2.UI.FreeformImage" preserve="all" />
+    <type fullname="Paper2.UI.GenericLeaderboardEntry" preserve="all" />
+    <type fullname="Paper2.UI.GradientRotator" preserve="all" />
+    <type fullname="Paper2.UI.GyroTiltEffect" preserve="all" />
+    <type fullname="Paper2.UI.Helpers.AsyncImage" preserve="all" />
+    <type fullname="Paper2.UI.Helpers.EnvelopeScaleToParent" preserve="all" />
+    <type fullname="Paper2.UI.Helpers.NotificationIconHelper" preserve="all" />
+    <type fullname="Paper2.UI.Helpers.PointerStateRelay" preserve="all" />
+    <type fullname="Paper2.UI.Helpers.RawImageSpriteSheetPlayer" preserve="all" />
+    <type fullname="Paper2.UI.Helpers.TextOutlineHelper" preserve="all" />
+    <type fullname="Paper2.UI.PaperImage" preserve="all" />
+    <type fullname="Paper2.UI.TextEffect.Model.KillTextEffectModel" preserve="all" />
+    <type fullname="Paper2.UI.TextEffect.View.GamePlayTextEffectView" preserve="all" />
+    <type fullname="Paper2.UI.UIRawImageSkew" preserve="all" />
+    <type fullname="Paper2.UI.UIScrollTransform" preserve="all" />
+    <type fullname="Paper2.UI.UIWaveDeform" preserve="all" />
+    <type fullname="Paper2.UI.View.ChestIcon" preserve="all" />
+    <type fullname="Paper2.UI.View.DisableOutsideViewport" preserve="all" />
+    <type fullname="Paper2.UI.View.FontsizeSynchronizer" preserve="all" />
+    <type fullname="Paper2.UI.View.LayoutElementsDisabler" preserve="all" />
+    <type fullname="Paper2.UI.View.LevelProgressView" preserve="all" />
+    <type fullname="Paper2.UI.View.NoThanksButtonView" preserve="all" />
+    <type fullname="Paper2.UI.View.NoThanksView" preserve="all" />
+    <type fullname="Paper2.UI.View.PercentageTextView" preserve="all" />
+    <type fullname="Paper2.UI.View.PersistentConfettiView" preserve="all" />
+    <type fullname="Paper2.UI.View.PlayerHudViewsPool" preserve="all" />
+    <type fullname="Paper2.UI.View.PlayerHudViewsPoolConfig" preserve="all" />
+    <type fullname="Paper2.UI.View.RvIconView" preserve="all" />
+    <type fullname="Paper2.UI.View.TranslationLoop" preserve="all" />
+    <type fullname="Paper2.UI.View.View.DisableWrappingForLanguages" preserve="all" />
+    <type fullname="Paper2.UIVFX.UIScrollEffect" preserve="all" />
+    <type fullname="Paper2.UIVFX.View.UIVFXEnabler" preserve="all" />
+    <type fullname="Paper2.UpdateAvailablePopup.UpdateAvailablePopup" preserve="all" />
+    <type fullname="Paper2.UserAcquisitionTools.UserAcquisitionController" preserve="all" />
+    <type fullname="Paper2.Utils.TMPLayoutElementShrinkPreferredWidth" preserve="all" />
+    <type fullname="Paper2.World.Controller.ProfileController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldAssetReferenceController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldAssetsProvider" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldCameraController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldContinentController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldCountryController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldDebuggingController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldEconomyController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldFlowController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldMapInputController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldMapView" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldSimulationController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldUiController" preserve="all" />
+    <type fullname="Paper2.World.Controller.WorldV3BoundsModel" preserve="all" />
+    <type fullname="Paper2.World.Model.CountryAssetReferenceModel" preserve="all" />
+    <type fullname="Paper2.World.Model.IdAssetReferenceModel" preserve="all" />
+    <type fullname="Paper2.World.Model.WorldAssetReferenceDatabase" preserve="all" />
+    <type fullname="Paper2.World.Model.WorldFlagAtlasModel" preserve="all" />
+    <type fullname="Paper2.World.Model.WorldV3ContinentModel" preserve="all" />
+    <type fullname="Paper2.World.UI.GenericLeaderboardView" preserve="all" />
+    <type fullname="Paper2.World.UI.WorldLeagueExplanationPopupView" preserve="all" />
+    <type fullname="Paper2.World.UI.WorldLeagueLeaderboardEntry" preserve="all" />
+    <type fullname="Paper2.World.UI.WorldLeagueLeaderboardScreenView" preserve="all" />
+    <type fullname="Paper2.World.View.ParticleAnimationEventView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldContinentHudView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldContinentMapView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldCountryView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldOverlayView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldPlayerBubbleIndicatorView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldPlayerProfileView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldPlayerSkinView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldUncapturedCountryIndicatorView" preserve="all" />
+    <type fullname="Paper2.World.View.WorldUpgradeIndicatorView" preserve="all" />
+    <type fullname="Paper2.World.WorldDecorationsView" preserve="all" />
+    <type fullname="Paper2.XPRoad.Controller.XPRoadController" preserve="all" />
+    <type fullname="Paper2.XPRoad.Model.XPRoadModel" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadBadgeMaterialAnimator" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadBadgeView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadLeaderboardItemView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadLeaderboardView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadMainMenuButton" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadProgressView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadRankLabelView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadRankUpScreen" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadScreenView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadStepView" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadTransitionReceiver" preserve="all" />
+    <type fullname="Paper2.XPRoad.View.XPRoadTransitionSender" preserve="all" />
+    <type fullname="Paper2.ZoneCornerGaps.ZoneCornerGapsController" preserve="all" />
+    <type fullname="Paper2.ZoneCornerGaps.ZoneWallsView" preserve="all" />
+    <type fullname="Paper2.ZoneCreation.ZoneCreationController" preserve="all" />
+    <type fullname="Paper2.ZoneDestructionVfx.ZoneDestructionVfxController" preserve="all" />
+    <type fullname="Paper2.ZoneDestructionVfx.ZoneDissolveOverlay" preserve="all" />
+    <type fullname="Paper2.ZoneTransitionVfx.ZoneTransitionVfxController" preserve="all" />
+    <type fullname="Paper2.ZoneTransitionVfx.ZoneTransitionVfxElement" preserve="all" />
+    <type fullname="PartyCrowd" preserve="all" />
+    <type fullname="PartyDrawerCloseHelper" preserve="all" />
+    <type fullname="PartyDrawerPanel" preserve="all" />
+    <type fullname="PartyExplainerPopupView" preserve="all" />
+    <type fullname="PartyGameEndScreen" preserve="all" />
+    <type fullname="PartyLayoutManager" preserve="all" />
+    <type fullname="PartyPedestal" preserve="all" />
+    <type fullname="PartyPlayerInfoView" preserve="all" />
+    <type fullname="PartyPlayersStatusView" preserve="all" />
+    <type fullname="PartyPlayground" preserve="all" />
+    <type fullname="PartyPromoPopupView" preserve="all" />
+    <type fullname="PartyScreenView" preserve="all" />
+    <type fullname="PassiveDailyCheck" preserve="all" />
+    <type fullname="Player" preserve="all" />
+    <type fullname="PlayerPicView" preserve="all" />
+    <type fullname="PlaygroundView" preserve="all" />
+    <type fullname="PowersChestClassicDiscoveryView" preserve="all" />
+    <type fullname="PremiumSkinVfxHelper" preserve="all" />
+    <type fullname="ProgressBubblesView" preserve="all" />
+    <type fullname="ProgressDividerView" preserve="all" />
+    <type fullname="Quantum.MatchSkinPreloader" preserve="all" />
+    <type fullname="Quantum.PaperEntityView" preserve="all" />
+    <type fullname="Quantum.PlayerViewCuller" preserve="all" />
+    <type fullname="QuantumUser.View.CameraEntityViewComponent" preserve="all" />
+    <type fullname="QuantumUser.View.Helpers.DisableOnMatchFinished" preserve="all" />
+    <type fullname="QuantumUser.View.Helpers.NameOverrides.PlayerName" preserve="all" />
+    <type fullname="QuantumUser.View.Helpers.NameOverrides.TrailName" preserve="all" />
+    <type fullname="QuantumUser.View.Helpers.NameOverrides.ZoneName" preserve="all" />
+    <type fullname="QuantumUser.View.Helpers.TeamBattleTheme" preserve="all" />
+    <type fullname="QuantumUser.View.Helpers.TeamBattleThemeInitializer" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.PlayerCrownView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.PlayerEdgeSparksVfxController" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.PlayerEffectsView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.PlayerSlingshotVfxController" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.PlayerVfxController" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.PlayerView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.Train.PlayerTrainView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.Train.QuantumEnemyTrain" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.ZoneDeathDissolveView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.Player.ZoneView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.SkinLoader" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.SkyboxInitializer" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.StatsTracker" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.TeamBattle.TeamReviveArrowView" preserve="all" />
+    <type fullname="QuantumUser.View.Paper.TeamBattle.TeamReviveCollectibleView" preserve="all" />
+    <type fullname="QuantumUser.View.QuantumInputPolling" preserve="all" />
+    <type fullname="QuantumUser.View.SceneViewContext" preserve="all" />
+    <type fullname="QuantumUser.View.TrailView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.Countdown.CountdownView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.Countdown.MatchTimerView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.InGameNotificationsController" preserve="all" />
+    <type fullname="QuantumUser.View.UI.KillCounter" preserve="all" />
+    <type fullname="QuantumUser.View.UI.Leaderboard.InGameLeaderboard" preserve="all" />
+    <type fullname="QuantumUser.View.UI.Leaderboard.MultiplayerLeaderboardRow" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.DeadPlayerIcon" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.DeadPlayerTrackerView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.MatchIntroCard" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.MatchIntroView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.PaintBrawlMatchIntroView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.PartyHudModeController" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamBadge3DIconView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamBar" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamBarsView" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamBattleResultsScreen" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamResultBlock" preserve="all" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamWinBannerView" preserve="all" />
+    <type fullname="RewardView" preserve="all" />
+    <type fullname="RotateLoop" preserve="all" />
+    <type fullname="RotateView" preserve="all" />
+    <type fullname="SaveYourProgressView" preserve="all" />
+    <type fullname="ScaleOnEnable" preserve="all" />
+    <type fullname="ShakeView" preserve="all" />
+    <type fullname="ShopNoAdsView" preserve="all" />
+    <type fullname="SkewedImage" preserve="all" />
+    <type fullname="SkinAnimationListener" preserve="all" />
+    <type fullname="SkinUnlockChecker" preserve="all" />
+    <type fullname="SpawnManager" preserve="all" />
+    <type fullname="StadiumView" preserve="all" />
+    <type fullname="SwipeUpToDismiss" preserve="all" />
+    <type fullname="TapSound" preserve="all" />
+    <type fullname="TeamBadgeView" preserve="all" />
+    <type fullname="TeamBattleBotsPool" preserve="all" />
+    <type fullname="TeamBattleChooseTeamPanelV2" preserve="all" />
+    <type fullname="TeamBattleColorPumpItem" preserve="all" />
+    <type fullname="TeamBattleColorPumpManager" preserve="all" />
+    <type fullname="TeamBattleController" preserve="all" />
+    <type fullname="TeamBattleGameplay" preserve="all" />
+    <type fullname="TeamBattleGameplayViewV2" preserve="all" />
+    <type fullname="TeamBattleIconImpactView" preserve="all" />
+    <type fullname="TeamBattleMainPanelV2" preserve="all" />
+    <type fullname="TeamBattleMinimap" preserve="all" />
+    <type fullname="TeamBattlePlayer" preserve="all" />
+    <type fullname="TeamBattlePlayerBotsPoolConfig" preserve="all" />
+    <type fullname="TeamBattlePlayground" preserve="all" />
+    <type fullname="TeamBattleProgressViewV2" preserve="all" />
+    <type fullname="TeamBattleResultPanel" preserve="all" />
+    <type fullname="TeamBattleScreenViewV2" preserve="all" />
+    <type fullname="TeamBattleTeamModel" preserve="all" />
+    <type fullname="TeamBattleTrail" preserve="all" />
+    <type fullname="TeamBattleVisualFeedback" preserve="all" />
+    <type fullname="TeamBattleZone" preserve="all" />
+    <type fullname="TeamBattleZoneManager" preserve="all" />
+    <type fullname="TeamBattleZonesPool" preserve="all" />
+    <type fullname="TeamBattleZonesPoolConfig" preserve="all" />
+    <type fullname="TimerView" preserve="all" />
+    <type fullname="ToasterButtonView" preserve="all" />
+    <type fullname="TrailCollider" preserve="all" />
+    <type fullname="UIAlphaGradientSetter" preserve="all" />
+    <type fullname="UIGradient" preserve="all" />
+    <type fullname="UIWriteUvs" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.Gradient2" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.Gradient3" preserve="all" />
+    <type fullname="VersionView" preserve="all" />
+    <type fullname="VfxSortingLayerController" preserve="all" />
+    <type fullname="Voodoo.Optimisation._Common.Scripts.PlayerHudView" preserve="all" />
+    <type fullname="Voodoo.Optimisation.Country.CountryShapesController" preserve="all" />
+    <type fullname="Voodoo.Optimisation.WorldMapV3.WorldAssetsConfig" preserve="all" />
+    <type fullname="Voodoo.Optimisation.WorldMapV3.WorldCountryGeometry" preserve="all" />
+    <type fullname="Voodoo.Optimisation.WorldMapV3.WorldV3CountryModel" preserve="all" />
+    <type fullname="Voodoo.Pattern.Random.PseudoPool" preserve="all" />
+    <type fullname="WorldLeagueIntroScreenView" preserve="all" />
+    <type fullname="XPRoadPrizeView" preserve="all" />
+    <type fullname="ZeroFriendsTooltip" preserve="all" />
+    <type fullname="Zone" preserve="all" />
+    <type fullname="ZoneManager" preserve="all" />
+    <type fullname="GameOps.UIFramework.Components.Buttons.UIButtonView/RvGraphicModel" preserve="nothing" serialized="true" />
+    <type fullname="I2.Loc.EventCallback" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.Model.AbstractAssetReferenceModel/AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="FollowTarget/EditorReferences" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.MapEdgeSparksVfx.IceRailCharacterAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.MapEdgeSparksVfx.MapEdgeSparksVfxController/SparksTierRefs" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Chapters.CollectionView/IconsReferences" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Chests.CardRarityModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowerChestPartPrefabReference" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Core.PowerConfig`2" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Core.PowerSettingsConfig`1" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.BetterVision.BetterVisionPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.DamageZonePowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Common.PowerPreviewEffectView/ColorElement" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.FasterInEnemyTerritory.FasterInPaintedTerritoryPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.FasterInNeutralTerritory.FasterInNeutralTerritoryPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.InstantDash.InstantDashPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.MiniMapRadar.MiniMapRadarPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintBowling.PaintBowlingPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintCircle.PaintCirclePowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintCone.PaintConePowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.PaintMines.PaintMinesPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Paint.TrailPulse.TrailPulsePowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.RockTail.RockTailPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShieldedArea.ShieldedAreaPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShockField.ShockFieldPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.ShockWave.ShockWavePowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.Sprinter.SprinterPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Powers.TerritoryViscosity.TerritoryViscosityPowerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionCardView/ClassModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionCardView/RarityModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.SelectionScreen.CharacterSelectionHeaderView/RarityHeaderModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterClassBadge/CharacterClass" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterHeaderBackground/BackgroundConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.UI.CharacterHeaderBackground/BackgroundType" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.View.ClassModel" preserve="nothing" serialized="true" />
+    <type fullname="SupportedItems" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.AutoRun.AutoRunDefinitionData/BotDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.AutoRun.AutoRunDefinitionData/PlayerDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.AutoRun.AutoRunDefinitionData/SpawnableDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.AutoRun.AutoRunDefinitionsDataContainer/AutoRunDataAddress" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.AutoRun.AutoRunSessionStep" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.AutoRun.AutoRunSessionTemplatesContainer/AutoRunSessionAddress" preserve="nothing" serialized="true" />
+    <type fullname="Spawnee" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeAnimator/EnterSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeAnimator/ExitSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeAnimator/WobbleSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeCounterView/PrizeCounterElement" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.BonusGame.BonusGamePrizeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="GameOps.UIFramework.NavBar.NavSet" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.TMPCustomMaterialTag/MaterialEntry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.UI.GenericLeaderboardChild" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.UI.PodiumUI" preserve="nothing" serialized="true" />
+    <type fullname="SerializableSystemType" preserve="nothing" serialized="true" />
+    <type fullname="AnimationData" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Skins.SkinLOD" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Skins.ZoneVfxColors" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.UI.GyroTiltTarget" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Chests.PowerChestPartObjects" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Economy.DataModel.CurrencyAmount" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Missions.AchievementStepColor" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Missions.RewardBackgroundSet" preserve="nothing" serialized="true" />
+    <type fullname="ColoredAreaOfEffectView/ColorElement" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Pooling.VariantPoolConfig`1" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.PumpTower.GenericColorPumpItem`1/PumpBuildingColorizer" preserve="nothing" serialized="true" />
+    <type fullname="TeamBadgeItems" preserve="nothing" serialized="true" />
+    <type fullname="KillToWinPrizeView/RewardSet" preserve="nothing" serialized="true" />
+    <type fullname="AssetReferenceTeamBattleTeamModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterOutfits.SkinOutfitData" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterRarityConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterRarityViewConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CharacterPowers.Characters.CharacterViewConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinCollectibleModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinIconHelper/CollectToWinIcon" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinMilestoneModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinThemeModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinThemeWeekModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.CollectToWin.Model.CollectToWinWeekModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.AssetManagement.Reference.AssetReferenceCharactersViewConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.AssetManagement.Reference.AssetReferenceMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.AssetManagement.Reference.AssetReferencePowersConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.AssetManagement.Reference.AssetReferenceScriptableObject" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.AssetManagement.Reference.AssetReferenceSkinViewConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Currencies.Helpers.CurrencySpriteHelper/ExactSpriteModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Currencies.Helpers.CurrencySpriteHelper/SdfEntry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.FriendsList.UIColorVariant" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Gameplay.View.ZoneToastAnimationSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Gameplay.View.ZoneToastPositionSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.GameplayVfx.Data.VfxColorPalette" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.GenZToasts.GenZToastsWordingModel/KillText" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.GenZToasts.GenZToastsWordingModel/ZonePool" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.GlowyCountryFill.GlowyCountryFillSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Missions.Model.AssetReferenceMissionAssetReferenceModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.ShaderPrewarmer.ConditionalPrewarmEntry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Skins.Model.CardViewTransform" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.Controller.WorldNearestCountryModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.Model.WorldFlagAtlasModel/TextureAtlasEntry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.XPRoad.Model.AssetReferenceXPRoadModel" preserve="nothing" serialized="true" />
+    <type fullname="RandomRanges" preserve="nothing" serialized="true" />
+    <type fullname="SaveYourProgressView/LayoutValues" preserve="nothing" serialized="true" />
+    <type fullname="Voodoo.Optimisation.WorldMapV3.WorldCountryGeometryEntry" preserve="nothing" serialized="true" />
+    <type fullname="Voodoo.Optimisation.WorldMapV3.WorldV3PlayerModel" preserve="nothing" serialized="true" />
+    <type fullname="Voodoo.Optimisation.WorldMapV3.WorldV3StateModel" preserve="nothing" serialized="true" />
+    <type fullname="BitBenderGames.UnityEventWithRaycastHit" preserve="nothing" serialized="true" />
+    <type fullname="BitBenderGames.UnityEventWithRaycastHit2D" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.Controller.WorldCameraController/ZoomLevelModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.World.View.WorldContinentMapView/ContinentOutlineModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Chapters.ChaptersChunkEntry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Chapters.ChaptersMapChunkData" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.UI.UIScrollTransformChannel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.Multiplayer.PartyLobbyBackgroundController/ModeBackground" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.Multiplayer.PartyModeTheme/Entry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.PartyLeaderboards.UI.RewardItem" preserve="nothing" serialized="true" />
+    <type fullname="ParallaxLayer" preserve="nothing" serialized="true" />
+    <type fullname="QuantumUser.View.Helpers.SkyboxGradient" preserve="nothing" serialized="true" />
+    <type fullname="QuantumUser.View.Helpers.TeamTheme" preserve="nothing" serialized="true" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.PaintBrawlMatchIntroView/PanelStyle" preserve="nothing" serialized="true" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.PartyHudModeController/ModeRoot" preserve="nothing" serialized="true" />
+    <type fullname="QuantumUser.View.UI.TeamBattle.TeamBadgeVisuals" preserve="nothing" serialized="true" />
+    <type fullname="CurrencyView" preserve="nothing" serialized="true" />
+    <type fullname="GameOps.UIFramework.UIViewConfig" preserve="nothing" serialized="true" />
+    <type fullname="GameOps.UIFramework.UIViewLayer" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.UI.Helpers.NotificationIcon" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioCategory" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioChannelSettings" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioChannelWithInternalInfos" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioController_CurrentInspectorSelection" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioItem" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioItem/LoopMode" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.AudioSubItem" preserve="nothing" serialized="true" />
+    <type fullname="CS.AudioToolkit.Playlist" preserve="nothing" serialized="true" />
+    <type fullname="Game.Utils.SerializableDictionary`2" preserve="nothing" serialized="true" />
+    <type fullname="MusicTrack" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.AdaptiveDifficultyConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.AdaptiveDifficultyConfig/PerformanceThreshold" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.AdaptiveDifficultyConfig/ProfileMappingThreshold" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.AggressionProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.BotProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.LoopingProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.PerceptionProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.PhaseProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.ProbingProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.ProfileMappingModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.SensorsProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Bots.BotProfiles.SpawnProfileModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.AssetManagement.Reference.AssetReferenceAudioClip" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Core.Shapes.CustomShape" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.DynamicSpecialOffer.Model.DynamicOfferCharacterRarityGraphicConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.DynamicSpecialOffer.Model.DynamicOfferSkinCategoryGraphicConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Economy.DataModel.CurrencyAmountConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Economy.DataModel.EconomyMultiplier" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.Multiplayer.GameModeLoadingSettings" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.Multiplayer.MapRandomization.ArenaCatalogEntry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Features.Multiplayer.MapRandomization.AssetReferenceArenaConfig" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Gameplay.ObjectPool.PoolPreRegisteredItemsConfig/Entry" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Haptics.Model.HapticGroupModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Haptics.Model.HapticGroupModel/CustomPatternHitModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Haptics.Model.HapticGroupModel/HapticFallbackModel" preserve="nothing" serialized="true" />
+    <type fullname="Assets.PlayerProfiles.Data.CountryData" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.GameplayVfx.View.VfxColorBinder/ParticleColorBinding" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.LightGameplayUI.LightNotificationReveal" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.UI.TextEffect.Model.KillTextEffectModel/TextPerKillModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.Variants.VariantCohortEntry`1" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.XPRoad.Model.XPRoadRankModel" preserve="nothing" serialized="true" />
+    <type fullname="Paper2.XPRoad.View.XPRoadLeaderboardItemView/LeaderboardItemImageView" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
+  </assembly>
+  <assembly fullname="AstarPathfindingProject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AstarPath" preserve="all" />
+    <type fullname="Pathfinding.RaycastModifier" preserve="all" />
+    <type fullname="Pathfinding.Seeker" preserve="all" />
+    <type fullname="Pathfinding.AstarColor" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.AstarData" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.Graphs.Navmesh.NavmeshUpdates" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.Graphs.Util.EuclideanEmbedding" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.GraphMask" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.StartEndModifier" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Coffee.UIEffect, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIEffects.UIEffect" preserve="all" />
+    <type fullname="Coffee.UIEffects.UIEffectReplica" preserve="all" />
+    <type fullname="Coffee.UIEffects.UIEffectTweener" preserve="all" />
+    <type fullname="Coffee.UIEffectInternal.MinMax01" preserve="nothing" serialized="true" />
+    <type fullname="Coffee.UIEffects.UIEffectTweener/TweenerEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Coffee.UnmaskForUGUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.Unmask" preserve="all" />
+  </assembly>
+  <assembly fullname="DOTweenPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DG.Tweening.DOTweenVisualManager" preserve="all" />
+  </assembly>
+  <assembly fullname="EasyTweens, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="EasyTweens.ShearImage" preserve="all" />
+    <type fullname="EasyTweens.TweenAnimation" preserve="all" />
+    <type fullname="EasyTweens.Utils.RestartAnimationOnEnabled" preserve="all" />
+    <type fullname="EasyTweens.ActivateGameObject" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.DeActivateGameObject" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenAnchoredPosition" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenCallback" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenCanvasGroupFade" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenColorProperty" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenLocalPosition" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenLocalRotation" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenLocalScale" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenSizeDelta" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.ChildAnimationTween" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.PlayParticles" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.ShearImageTween" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenWorldPosition" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenTransform" preserve="nothing" serialized="true" />
+    <type fullname="EasyTweens.TweenWorldRotation" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="EnhancedScroller_asmdef, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="EnhancedUI.EnhancedScroller.EnhancedScroller" preserve="all" />
+  </assembly>
+  <assembly fullname="Febucci.TextAnimator.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Febucci.UI.Actions.ActionDatabase" preserve="all" />
+    <type fullname="Febucci.UI.Actions.SpeedAction" preserve="all" />
+    <type fullname="Febucci.UI.Actions.WaitAnyInputAction" preserve="all" />
+    <type fullname="Febucci.UI.Actions.WaitForAction" preserve="all" />
+    <type fullname="Febucci.UI.Effects.AnimationsDatabase" preserve="all" />
+    <type fullname="Febucci.UI.Effects.BounceBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.DangleBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.DiagonalExpandAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.FadeAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.FadeBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.HorizontalExpandAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.OffsetAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.PendulumBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RainbowBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RandomDirectionAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RotatingAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.RotationBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.ShakeBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SizeAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SizeBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SlideBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.SwingBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.TritoneBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.UniformCurveAnimation" preserve="all" />
+    <type fullname="Febucci.UI.Effects.VerticalExpandAppearance" preserve="all" />
+    <type fullname="Febucci.UI.Effects.WaveBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Effects.WiggleBehavior" preserve="all" />
+    <type fullname="Febucci.UI.Styles.StyleSheetScriptable" preserve="all" />
+    <type fullname="Febucci.UI.TextAnimatorSettings" preserve="all" />
+    <type fullname="Febucci.UI.TypewriterByCharacter" preserve="all" />
+    <type fullname="Febucci.UI.TimeData" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Effects.AnimationData" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Effects.ColorCurve" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Effects.EmissionCurve" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Effects.FloatCurve" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Effects.TimeMode" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.TextAnimatorSettings/Category`1" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.TextAnimatorSettings/ControlTags" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Core.CharacterEvent" preserve="nothing" serialized="true" />
+    <type fullname="Febucci.UI.Core.MessageEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Febucci.TextAnimator.TMP.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Febucci.UI.TextAnimator_TMP" preserve="all" />
+  </assembly>
+  <assembly fullname="FluffyUnderware.DevTools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="FluffyUnderware.DevTools.ComponentPool" preserve="all" />
+    <type fullname="FluffyUnderware.DevTools.PoolManager" preserve="all" />
+    <type fullname="FluffyUnderware.DevTools.PoolSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="ImageCropper.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ImageCropper" preserve="all" />
+    <type fullname="ImageCropperNamespace.CircleGraphic" preserve="all" />
+    <type fullname="ImageCropperNamespace.EventSystemHandler" preserve="all" />
+    <type fullname="ImageCropperNamespace.FadeOverlayGraphic" preserve="all" />
+    <type fullname="ImageCropperNamespace.SelectionCornersFitter" preserve="all" />
+    <type fullname="ImageCropperNamespace.SelectionGraphicsSynchronizer" preserve="all" />
+    <type fullname="ImageCropperNamespace.SelectionMovementHandler" preserve="all" />
+    <type fullname="ImageCropperNamespace.SelectionResizeHandler" preserve="all" />
+    <type fullname="ImageCropperNamespace.SizeChangeListener" preserve="all" />
+  </assembly>
+  <assembly fullname="Lofelt.NiceVibrations, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Lofelt.NiceVibrations.HapticClip" preserve="all" />
+    <type fullname="Lofelt.NiceVibrations.GamepadRumble" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Lofelt.NiceVibrations.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Lofelt.NiceVibrations.MMSpriteReplace" preserve="all" />
+  </assembly>
+  <assembly fullname="ParticleImage, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AssetKits.ParticleImage.ParticleImage" preserve="all" />
+    <type fullname="AssetKits.ParticleImage.Burst" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.Module" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SeparatedMinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SpeedRange" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Quantum.Engine, Version=3.0.10.1991, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Quantum.BinaryData" preserve="all" />
+    <type fullname="Quantum.EntityPrototype" preserve="all" />
+    <type fullname="Quantum.EntityView" preserve="all" />
+    <type fullname="Quantum.Map" preserve="all" />
+    <type fullname="Quantum.AssetGuid" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRef`1" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetObjectIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRef" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.CallbackFlags" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.ComponentPrototypeSet" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.PhysicsBodyInertiaMode" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.Transform2DPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.ViewPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QEnum32`1" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Shape2DConfig" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Shape3DConfig" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Quantum.Simulation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Quantum.CircularArena" preserve="all" />
+    <type fullname="Quantum.MatchSettings" preserve="all" />
+    <type fullname="Quantum.PolygonArena" preserve="all" />
+    <type fullname="Quantum.SimulationPrototypes" preserve="all" />
+    <type fullname="Quantum.TeamBattleSettings" preserve="all" />
+    <type fullname="Quantum.RuntimeConfig" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.BotPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.DeathCountPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.DirectionPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.InputPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.KillCountPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.LastVerifiedTrailPointPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.PlayerInputPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.PlayerLinkPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.PlayerOwnedEntitiesPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.RotationSpeedPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.SpeedIncreaseOnKillPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.SpeedPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.TrailPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.SpawnGroup" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.SpawnLayout" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.SpawnPoint" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Quantum.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerDeltaTime" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerFrameTime" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerMarkers" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerNetworkActivity" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerPing" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerPredictedFrames" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerRenderTime" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerSimulationTime" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerUserScripts" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilerVerifiedFrames" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilingStatistics" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphProfilingTools" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphSeriesMarker" preserve="all" />
+    <type fullname="Quantum.Profiling.QuantumGraphSeriesValue" preserve="all" />
+    <type fullname="Quantum.QPrototypeAIBlackboardComponent" preserve="all" />
+    <type fullname="Quantum.QPrototypeBot" preserve="all" />
+    <type fullname="Quantum.QPrototypeBTAgent" preserve="all" />
+    <type fullname="Quantum.QPrototypeDeathCount" preserve="all" />
+    <type fullname="Quantum.QPrototypeDirection" preserve="all" />
+    <type fullname="Quantum.QPrototypeKillCount" preserve="all" />
+    <type fullname="Quantum.QPrototypeLastVerifiedTrailPoint" preserve="all" />
+    <type fullname="Quantum.QPrototypePlayerInput" preserve="all" />
+    <type fullname="Quantum.QPrototypePlayerLink" preserve="all" />
+    <type fullname="Quantum.QPrototypePlayerOwnedEntities" preserve="all" />
+    <type fullname="Quantum.QPrototypeRotationSpeed" preserve="all" />
+    <type fullname="Quantum.QPrototypeSpeed" preserve="all" />
+    <type fullname="Quantum.QPrototypeSpeedIncreaseOnKill" preserve="all" />
+    <type fullname="Quantum.QPrototypeTrail" preserve="all" />
+    <type fullname="Quantum.QuantumEntityPrototype" preserve="all" />
+    <type fullname="Quantum.QuantumEntityView" preserve="all" />
+    <type fullname="Quantum.QuantumEntityViewPool" preserve="all" />
+    <type fullname="Quantum.QuantumEntityViewUpdater" preserve="all" />
+    <type fullname="Quantum.QuantumMapData" preserve="all" />
+    <type fullname="Quantum.QuantumMemoryStats" preserve="all" />
+    <type fullname="Quantum.QuantumStats" preserve="all" />
+    <type fullname="Quantum.QuantumJobsMaxCountMode" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumMapDataBakeFlags" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumSnapshotInterpolationTimer" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.Unity.AIBlackboardComponentPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.Unity.PlayerOwnedEntitiesPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/InitialNavMeshTargetInfo" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/NavMeshAvoidanceAgentInfo" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/NavMeshPathfinderInfo" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/NavMeshSpec" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/NavMeshSteeringAgentInfo" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/OverrideFP" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/PhysicsBodyGeneric" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/PhysicsColliderGeneric" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/SourceShapeGenericSettings" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityPrototype/Transform2DVerticalInfo" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.QuantumEntityView/EntityUnityEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SimpleScrollSnap, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap" preserve="all" />
+  </assembly>
+  <assembly fullname="SoftMask, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SoftMasking.SoftMask" preserve="all" />
+    <type fullname="SoftMasking.SoftMaskable" preserve="all" />
+    <type fullname="SoftMasking.SoftMask/BorderMode" preserve="nothing" serialized="true" />
+    <type fullname="SoftMasking.SoftMask/MaskSource" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="ToolBuddy.Curvy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="FluffyUnderware.Curvy.CurvyGlobalManager" preserve="all" />
+    <type fullname="FluffyUnderware.Curvy.CurvySplineSegment" preserve="all" />
+    <type fullname="FluffyUnderware.Curvy.CurvyUISpline" preserve="all" />
+    <type fullname="FluffyUnderware.Curvy.Pools.ArrayPoolsSettings" preserve="all" />
+    <type fullname="FluffyUnderware.Curvy.CurvyControlPointEvent" preserve="nothing" serialized="true" />
+    <type fullname="FluffyUnderware.Curvy.CurvySplineEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_ColorGradient" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.ParentConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.PositionConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.RotationConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animations.ScaleConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.RenderTexture" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.ShaderVariantCollection" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`2" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemForceField" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.EdgeCollider2D" preserve="all" />
+    <type fullname="UnityEngine.PhysicsMaterial2D" preserve="all" />
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.BaseInput" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="BehaviorDesigner.Runtime">
+    <type fullname="BehaviorDesigner.Runtime.BehaviorSource" preserve="nothing" serialized="true" />
+    <type fullname="BehaviorDesigner.Runtime.FieldSerializationData" preserve="nothing" serialized="true" />
+    <type fullname="BehaviorDesigner.Runtime.TaskSerializationData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Quantum.BotSDK.Core">
+    <type fullname="Quantum.Prototypes.AIBlackboardComponentPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Prototypes.BTAgentPrototype" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Quantum.Deterministic">
+    <type fullname="Photon.Deterministic.FP" preserve="nothing" serialized="true" />
+    <type fullname="Photon.Deterministic.FPVector2" preserve="nothing" serialized="true" />
+    <type fullname="Photon.Deterministic.FPVector3" preserve="nothing" serialized="true" />
+    <type fullname="Photon.Deterministic.NullableFP" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.PlayerRef" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SimpleInspectorAttributes">
+    <type fullname="DanielLochner.Assets.Margins" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
